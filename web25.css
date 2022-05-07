@@ -1206,7 +1206,13 @@ main{
     margin-right: 1rem;
    
    }
+   
+/*==================== portfolio ====================*/
 
+.portfolio__info{
+
+    margin-bottom: 2rem;
+}
 /*==================== certificate ====================*/
 
 .certificate__contaienr {
@@ -1227,9 +1233,21 @@ main{
 
 
 /*==================== footer ====================*/
+.footer__info-text-icon{
+
+    font-size: var(--h3-font-size);
+
+}
+.footer__info-text-p{
+
+    font-size: var(--h3-font-size);
 
 
+}
+.footer__icon-link{
 
+    font-size: var(--h3-font-size);
+}
 }
 
 @media screen and (min-width: 1200px){
@@ -1515,7 +1533,7 @@ main{
     margin-bottom:3rem;
 }
 .footer__maininfo{
-    grid-template-columns: repeat(3,350px);
+    grid-template-columns: repeat(3,500px);
     justify-content: center;
 }
 
@@ -1541,7 +1559,7 @@ main{
 
 .footer__img-pokemon{
 
-    right: 15rem;
+    right: 5rem;
 
     bottom:5rem;
 }
@@ -1557,3 +1575,13 @@ main{
 }
 
 
+@media screen and (min-width: 1900px){
+
+
+.footer__img-pokemon{
+
+        right: 15rem;
+    
+    
+    }
+}
