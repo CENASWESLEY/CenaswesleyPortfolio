@@ -113,7 +113,9 @@ sr.reveal(`.footer__mainbox  `,{delay: 500,});
 sr.reveal(`.certificate__box-img`,{interval: 300});
 
 sr.reveal(`.footer__img-pokemon`,{delay: 100, origin: 'right'});
-
+sr.reveal(`.footer__info-maintext `,{delay: 100, origin: 'left'});
+sr.reveal(`.footer__mainicon  `,{delay: 100,});
+sr.reveal(`.footer__copy  `,{delay: 200,origin: 'bottom'});
  /*==================== Scroll-up====================*/
 
 function Scrollup() {
